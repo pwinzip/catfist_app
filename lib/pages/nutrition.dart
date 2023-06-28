@@ -520,33 +520,3 @@ class _NutritionPageState extends State<NutritionPage> {
     print(total.toString());
   }
 }
-
-class PercentWanted {
-  final double? fishPercent,
-      soybeanPercent,
-      chickenPercent,
-      brokenricePercent,
-      ricePercent,
-      potatoPercent,
-      palmPercent,
-      cornPercent,
-      vitaminPercent,
-      oilPercent,
-      methioninePercent,
-      p18p21Percent;
-
-  PercentWanted({
-    this.fishPercent,
-    this.soybeanPercent,
-    this.chickenPercent,
-    this.brokenricePercent,
-    this.ricePercent,
-    this.potatoPercent,
-    this.palmPercent,
-    this.cornPercent,
-    this.vitaminPercent,
-    this.oilPercent,
-    this.methioninePercent,
-    this.p18p21Percent,
-  });
-}
